@@ -1,0 +1,15 @@
+{
+    "name": "redis",
+    "version": "1.0.0",
+    "private": true,
+    "type":"module",
+    "scripts": {
+      "api": "node src/api.js",
+      "subscriber":"node src/subscriber.js"
+    },
+    "dependencies": {
+      "express": "^4.22.2",
+      "ioredis": "^5.11.1"
+    }
+  }
+  
